@@ -1,0 +1,57 @@
+.mainContainer {
+  background: #f2f4f2 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  box-shadow: 3px 5px 6px #00000029;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  min-height: 400px;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 1;
+  padding: 20px;
+  width: 800px;
+  position: relative;
+}
+
+.containerModalInvisible {
+  background: #f2f4f2 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  box-shadow: 3px 5px 6px #00000029;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 1;
+  padding: 20px;
+  width: 800px;
+  position: relative;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.parentDetailsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.modalArrowButton {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+}
+
+.modalArrow:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.title {
+  text-transform: capitalize;
+}
+
+.predictionCell {
+  display: table-cell;
+  font-size: 20px;
+  padding: 0 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.chanceOf {
+  font-size: 14px;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+.container {
+  background: #f2f4f2 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  box-shadow: 3px 5px 6px #00000029;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  height: fit-content;
+  justify-content: center;
+  opacity: 1;
+  overflow: hidden;
+  padding: 10px 20px 20px 20px;
+  text-align: center;
+  width: 600px;
+  margin-top: 24px;
+}
+
+.predictionCellContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.element {
+  border-right: 2px solid #aecfd8;
+}
+.element:last-child {
+  border-right: none;
+}
